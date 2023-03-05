@@ -5,7 +5,7 @@ import { EnvironmentVariables } from "../utils";
  * @params key | string
  * @todo This decorator accepts an object key to read data from the app.properties.json
  */
-export default function AppProps(key: string) {
+export default function Env(key: string) {
     return function(target: any, propertyKey: any) {
         target[propertyKey] = EnvironmentVariables.get(key);
     };
