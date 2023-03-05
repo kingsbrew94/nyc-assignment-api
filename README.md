@@ -12,4 +12,5 @@ npm install
 ```
 
 ## Note
-Please change your database configuration the dotenv (.env) directory
+- Please change your database configuration the dotenv (.env) directory.
+- To test API please use the Postman Collection file name *POSTMAN.NYC API Test.postman_collection.json*
