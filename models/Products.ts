@@ -11,7 +11,6 @@ export default class Product {
     private static model: any;
 
     public static getModel(): any {
-
         return Product.model;
     }
 
@@ -32,7 +31,7 @@ export default class Product {
                 defaultValue: 0.0
             },
             description: {
-                type: DataTypes.STRING,
+                type: DataTypes.STRING
             }
         });
         this.sequel.sync();
