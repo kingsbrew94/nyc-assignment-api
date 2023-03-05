@@ -16,8 +16,7 @@ const ROOT_DIR = getRootDirectory();
 // Allow cross-origin-site access
 app.use(cors());
 
-
-// Load Controllers
+// Load Controllers And Models
 Server.loadServices(app,[`${ROOT_DIR}/controllers/*`,`${ROOT_DIR}/models/*`]);
 
 app.listen(SERVER_PORT, function() {
