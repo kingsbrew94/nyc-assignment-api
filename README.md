@@ -10,3 +10,6 @@ yarn
 # or
 npm install
 ```
+
+## Note
+Please change your database configuration the dotenv (.env) directory
